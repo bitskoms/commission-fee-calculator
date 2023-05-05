@@ -8,7 +8,7 @@ class Deposit implements OperationInterface
 
     private float $operationFeePercentage = 0.03;
 
-    public function setAmount(float $amount): self
+    public function setChargeAmount(float $amount): self
     {
         $this->amount = $amount;
 
